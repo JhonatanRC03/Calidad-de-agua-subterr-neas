@@ -26,3 +26,37 @@ El desafío radica en encontrar soluciones para garantizar una gestión sostenib
   - `Potability`: Indica si el agua es potable o no (1: potable, 0: no potable).
 
 Los datos que te ha enviado la compañía están en el archivo `Aguas-Subterraneas.xlsx`.
+
+## <font color='orange'>🟠 **Agrupando Métricas - Comparando los modelos** </font>
+
+![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/c1d9a555-186c-46bd-9897-f36c0ab153d8)
+
+
+Gráfico de Barras:
+![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/a6317805-50d2-44da-9377-30b00e927acf)
+
+
+## <font color='orange'>🟠 **Optimizando nuestro modelo con Hiperparámetros (LightGBM)** </font> <font color='orange'>
+
+![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/7329abc7-af9a-47b2-a5c1-ea54b818b145)
+
+
+Curva ROC:
+![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/2da42361-3d37-4f19-abfd-b894c70f6cc0)
+
+## <font color='orange'>🟠 **Conclusión** </font> <font color='orange'>
+
+
+**Después de optimizar los modelos usando Grid Search nos quedamos con el modelo LightGBM**
+
+**Se logró mejorar la métrica AUC-ROC a 85.33%, lo que indica un buen rendimiento del modelo en términos de discriminación entre clases. Esta métrica es especialmente útil para evaluar modelos en problemas de clasificación binaria como la calidad del agua subterránea, donde es crucial identificar correctamente las muestras positivas (agua de calidad inaceptable).**
+
+**La métrica AUC-ROC se basa en la tasa de verdaderos positivos (recall) y la tasa de falsos positivos. En este caso, un valor de 0.851 sugiere que el modelo es capaz de clasificar correctamente el 85.33% de los casos positivos (agua de buena calidad). Esto indica una buena capacidad del modelo para distinguir entre las dos clases.**
+
+**Además, se seleccionó el modelo LGBMClassifier como el mejor para predecir la calidad del agua subterránea, lo que sugiere que este algoritmo es efectivo en este contexto. Esto podría atribuirse a su capacidad para manejar grandes conjuntos de datos y su eficiencia en términos de tiempo de procesamiento.**
+
+**En conclusión, con un modelo optimizado y una métrica AUC-ROC mejorada, se puede confiar en las predicciones del modelo LGBMClassifier para identificar la calidad del agua subterránea de manera efectiva, lo que puede ser fundamental para la toma de decisiones en la gestión y conservación de los recursos hídricos.**
+
+
+
+
