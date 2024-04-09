@@ -38,6 +38,7 @@ Gráfico de Barras:
 
 ## <font color='orange'>🟠 **Optimizando nuestro modelo con Hiperparámetros (LightGBM)** </font> <font color='orange'>
 ![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/7329abc7-af9a-47b2-a5c1-ea54b818b145)
+
 Curva ROC:
 ![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/510326b9-fb6f-4f31-a7db-00999abd252c)
 
