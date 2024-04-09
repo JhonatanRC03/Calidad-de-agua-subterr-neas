@@ -37,7 +37,6 @@ Gráfico de Barras:
 
 
 ## <font color='orange'>🟠 **Optimizando nuestro modelo con Hiperparámetros (LightGBM)** </font> <font color='orange'>
-
 ![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/7329abc7-af9a-47b2-a5c1-ea54b818b145)
 
 
@@ -45,7 +44,6 @@ Curva ROC:
 ![image](https://github.com/JhonatanRC03/Calidad-de-agua-subterrneas/assets/132719375/2da42361-3d37-4f19-abfd-b894c70f6cc0)
 
 ## <font color='orange'>🟠 **Conclusión** </font> <font color='orange'>
-
 
 **Después de optimizar los modelos usando Grid Search nos quedamos con el modelo LightGBM**
 
